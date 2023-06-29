@@ -1,5 +1,9 @@
 extends layout
 
 block content
-  h1= message 
+  h1 My todos 
+  form(action='/todo' method='POST')
+      input(type='text' name='name' placeholder='Name')
+      input(type='text' name='task' placeholder='Task')
+      button(type='submit') Add Todo
  
