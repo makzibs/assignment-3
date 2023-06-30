@@ -5,7 +5,7 @@ const todos = []; // Array to store todos
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index');
+  res.render('layout');
 });
 
 /*router.post('/todo', function(req, res, next) {

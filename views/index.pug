@@ -1,9 +1,0 @@
-extends layout
-
-block content
-  h1 My todos 
-  form(action='/todo' method='POST')
-    input#input-name(type="text" name="name" placeholder="Name")
-    input#input-task(type="text" name="task" placeholder="Task")
-    button#submit-data(type="submit") Add Todo 
-      
